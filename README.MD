@@ -1,2 +1,2 @@
 # RN Tech Stack
-Demo for combining React Native App with Redux.
+Demo for combining React Native App with Redux..
