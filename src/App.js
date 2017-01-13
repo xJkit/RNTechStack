@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
 import { Header } from './components/common';
+import LibraryList from './components/LibraryList';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <Provider store={configureStore()}>
         <View style={styles.containerStyle}>
           <Header headerTitle="Tech Stack" />
+          <LibraryList />
         </View>
       </Provider>
     );
