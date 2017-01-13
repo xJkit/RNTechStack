@@ -6,6 +6,7 @@ import { Header } from './components/common';
 
 class App extends Component {
   render() {
+    console.log(configureStore().getState());
     return (
       <Provider store={configureStore()}>
         <View style={styles.containerStyle}>
