@@ -17,7 +17,6 @@ const styles = {
     backgroundColor: 'purple',
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
   },
   textStyle: {
     color: 'white',
